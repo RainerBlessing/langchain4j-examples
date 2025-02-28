@@ -45,8 +45,8 @@ public class StuffDocumentsChainExample {
         double temperature = configuration.getOpenAiTemperature();
 
         if (logger.isDebugEnabled()) {
-            logger.debug("LLM Model Name: {}", llmModel);
-            logger.debug("LLM Model Name Temperature: {}}", temperature);
+            logger.debug("LLM Name: {}", llmModel);
+            logger.debug("LLM Temperatur: {}", temperature);
         }
 
         OpenAiChatModel openAiModel = OpenAiChatModel.builder()
